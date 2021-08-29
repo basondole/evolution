@@ -5,20 +5,21 @@ local test:
     driver = "ios"
     os_version = (
         "7200 Software (C7200-ADVENTERPRISEK9-M),"
-        " Version 15.3(3)XB12, RELEASE SOFTWARE (fc2)")
+        " Version 15.3(3)XB12, RELEASE SOFTWARE (fc2)"
+    )
 
 
-Cisco ios-xe sandboxes:
+Cisco nexus sandbox:
     ip_address = "sandbox-nxos-1.cisco.com"
     username = "admin"
     password = "Admin_1234!"
-    driver = "ios"
-    os_version": ""
+    driver = "nxos"
+    os_version = ""
     
 
-Cisco nexus sandboxes:
+Cisco ios-xe sandbox:
     ip_address = "sandbox-iosxe-recomm-1.cisco.com"
     username = "developer"
     password = "C1sco12345"
-    driver = "nxos"
+    driver = "ios"
     os_version = ""
