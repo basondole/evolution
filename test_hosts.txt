@@ -1,0 +1,24 @@
+local test:
+    ip_address = "192.168.56.36"
+    user = "testuser"
+    passwd = "testpass"
+    driver = "ios"
+    os_version = (
+        "7200 Software (C7200-ADVENTERPRISEK9-M),"
+        " Version 15.3(3)XB12, RELEASE SOFTWARE (fc2)")
+
+
+Cisco ios-xe sandboxes:
+    ip_address = "sandbox-nxos-1.cisco.com"
+    username = "admin"
+    password = "Admin_1234!"
+    driver = "ios"
+    os_version": ""
+    
+
+Cisco nexus sandboxes:
+    ip_address = "sandbox-iosxe-recomm-1.cisco.com"
+    username = "developer"
+    password = "C1sco12345"
+    driver = "nxos"
+    os_version = ""

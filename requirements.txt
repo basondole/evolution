@@ -1,0 +1,11 @@
+pynetbox
+napalm
+napalm-aruba-cx
+napalm-asa
+napalm-panos
+pyaoscx==1.0.0
+requests
+urllib3
+pytest
+pylint
+black
