@@ -1,8 +1,7 @@
 **IMPORTANT**
 
-The stock panos module from `pip install napalm-panos` has issues running with napalm 
-version 3+. The modified `panos.py` file included in this directory should be 
-copied to the `napalm-panos` installation directory and replace the stock `panos.py`
+This code uses napalm library for device access but the stock panos module from `pip install napalm-panos` included in the `requirements.txt` has issues running with napalm 
+version 3+. The modified `panos.py` file included in this directory should be copied to the `napalm-panos` installation directory and replace the stock `panos.py`
 
 **About**
 
